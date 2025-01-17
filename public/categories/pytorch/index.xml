@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pytorch on Archit Sharma</title>
+    <link>https://example.org/categories/pytorch/</link>
+    <description>Recent content in Pytorch on Archit Sharma</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Jan 2025 03:15:13 +0530</lastBuildDate>
+    <atom:link href="https://example.org/categories/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PyTorch Fundamentals</title>
+      <link>https://example.org/posts/pytorch_fundamentals/</link>
+      <pubDate>Sat, 18 Jan 2025 03:15:13 +0530</pubDate>
+      <guid>https://example.org/posts/pytorch_fundamentals/</guid>
+      <description>&lt;h2 id=&#34;importing-pytorch&#34;&gt;Importing PyTorch&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start by importing PyTorch and checking the version we&amp;rsquo;re using.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import torch&#xD;&#xA;torch.__version__&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;2.5.1+cu121&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;It looks like we&amp;rsquo;ve got PyTorch 2.5.1+.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction-to-tensors&#34;&gt;Introduction to Tensors&lt;/h2&gt;&#xA;&lt;dl&gt;&#xA;&lt;dt&gt;Tensors are multi-dimensional arrays with a uniform type. In machine&lt;/dt&gt;&#xA;&lt;dt&gt;learning, the term tensor informally refers to two different concepts&lt;/dt&gt;&#xA;&lt;dd&gt;&lt;ol&gt;&#xA;&lt;li&gt;a way of organizing data and 2. a multilinear (tensor)&#xA;transformation. Data may be organized in a multidimensional array (M-way&#xA;array).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/dd&gt;&#xA;&lt;/dl&gt;&#xA;&lt;p&gt;For example, you could represent an image as a tensor with shape&#xA;&lt;code&gt;[3, 224, 224]&lt;/code&gt; which could mean &lt;code&gt;[colour_channels, height, width]&lt;/code&gt;.&#xA;Thus, the tensor would have dimensions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is PyTorch ?</title>
+      <link>https://example.org/posts/pytorch_def_intro/</link>
+      <pubDate>Sat, 18 Jan 2025 03:01:38 +0530</pubDate>
+      <guid>https://example.org/posts/pytorch_def_intro/</guid>
+      <description>&lt;p&gt;PyTorch is an open-source deep learning framework that’s known for its flexibility and ease of use.&#xA;This is enabled in part by its compatibility with the popular Python high-level programming language favored&#xA;by machine learning developers and data scientists.&lt;/p&gt;&#xA;&lt;p&gt;PyTorch is a fully featured framework for building deep learning models, which is a type of machine learning that’s&#xA;commonly used in applications like image recognition️ and language processing. Written in Python, it’s relatively&#xA;easy for most machine learning developers to learn and use. PyTorch is distinctive for its excellent support for GPUs&#xA;and its use of reverse-mode auto-differentiation, which enables computation graphs to be modified on the fly. This makes it a&#xA;popular choice for fast experimentation and prototyping.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
